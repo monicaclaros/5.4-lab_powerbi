@@ -1,57 +1,56 @@
-![Ironhack logo](https://i.imgur.com/1QgrNNw.png) 
+<<<<<<< HEAD
 
-# Lab | Power BI
-![Power BI logo](https://docs.microsoft.com/es-es/power-bi/create-reports/media/desktop-gridlines-snap-to-grid/snap-to-grid-desktop.png)
-
-## Introduction
-
-[Power BI](https://www.tableau.com/) as Tableau is a data visualization tool which provides pictorial and graphical representations of data.
-
-Your goal in this lab is to create a **Power BI dashboard** that shows the insights you find useful from de given data.
-
-## Your `data`
-In the `data` folder you will find the following files:
-
-**1. classicmodels.sql** : the classicmodels database (you can import it directly if you are using tableau desktop)
-
-**2. ERD.png** : the ERD of the classicmodels database
-
-**3. .xlsx file** : This excel file contains the data displayed in several sheets inside the file. You'll have to build the relationships between tables on your own.
-
-## Getting Started
-
-#### Challenge 1
-Open Power BI in your laptop and import the data.
-
-Create at least **`5 different figures`** explaining different insights, pay attention to the details, choose the proper figures and/or tables, build the figures coherently with each other (example: if china is red in a graph it shoul be associated to red everywhere).
-
-#### Challenge 2 
-Create a **`dashboard`** where you structure the info in the sheets in a way that everything make sense, it's easily readable and self explanatory. It must have at least two pages.
+# Visualization_P5
+Visualización del proyecto de ETL sobre migracion
+![banerGit](https://user-images.githubusercontent.com/16636086/106938115-ded34680-671e-11eb-8de4-35fd6d00868a.png)
 
 
-## Deliverables
 
-Export the dashboard to a .pbix file and upload it to your Github repository.
+#### 1. Equipo Desarrollo 
 
-:fire: **In case Github can´t handle your huge dashboard...** :fire:
-Export your dashboard to pdf or screenshot each page and paste it in a Power Point presentation.
+| Developer | Rol | Fecha | Proyecto | Versión |
+| Monica C | Jr| 15/05/2023 | 5  |  2 |
 
-Add this file to your repository.
 
-## Submission
+#### 2. Description
+```
+El PIB mide la actividad económica de un país durante un período de tiempo determinado. Un PIB más alto indica una economía más fuerte y mayores ingresos para la población. Sin embargo, no refleja la distribución de la riqueza ni el bienestar social. Otros indicadores, como el IDH o el IPM, deben usarse junto con el PIB para obtener una imagen más completa del progreso económico y social de un país. El PIB no siempre es el mejor indicador del bienestar de los ciudadanos, ya que no tiene en cuenta la distribución de la renta ni el acceso a oportunidades. En resumen, el PIB es un indicador valioso pero incompleto del progreso económico y social de un país.
 
-Add your deliverables to git. Then commit, add and push your branch to the remote.
+##En python
+1. Se calcula si los países superan la media continental del PIB. 
+2. Se analizan los datos del PIB de los países que pertenecen al ABYA YALA en busca de valores faltantes y atípicos.
+3. El código proporcionará información sobre los valores faltantes y mostrará un gráfico de cajas para visualizar la distribución del PIB.
+4. Es importante considerar otros factores como la población, el poder adquisitivo y las políticas económicas para comprender plenamente los datos del PIB y su contexto económico más amplio.
 
-Don't forget to create a pull request!
+##En POWER BI
+En esta herramienta, examinaremos el PIB de los países sudamericanos y su comparación con otros indicadores económicos y sociales. Ajustaremos los datos del PIB para considerar el tamaño de la población y obtener una imagen más precisa de la fortaleza económica relativa de cada país. Además del PIB, analizaremos indicadores como el Índice de Salud, el CI, el GPI y el IPC para comprender el bienestar general y la situación económica y social de cada país sudamericano.
+```
 
-:skull:(In case you have doubts about the pull request click [here](https://github.com/Ironhack-Data-Madrid-Marzo-2022/apuntes_clase/tree/master/Pull-requests_instructions#readme))
+#### 4. Lista con los pasos realizados
 
-## Resources
+escaleta()
+    #1.Importar Librerías
+    #2. Read the datasets
+    #3. Cambiar encabezado
+    #4. Select países de ABYA YALA (América del Sur)
+    #5. verificar nulos
+    #6. buscar outliers  o dispersión con box plot de columnas
+    #7. Eliminar quartiles fuera de rango como outlier
+    #8. Limpieza de nulos
+    #9. Elegir el Año 2022, info completa
+    #10. Cálculo del PIB total 2022
+    #11. Se divide el PIB de cada país con el total del grupo en el  2022
+    #12. Exportar a .csv
 
-:rocket:[Power BI official learning](https://help.tableau.com/current/guides/get-started-tutorial/es-es/get-started-tutorial-home.htm)
 
-:rocket:[Power BI in Youtube](https://www.youtube.com/watch?v=1c01r_pAZdk&list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)
+#### 5. Screenshot imagen que indique cómo debe verse el proyecto.
 
-:rocket:[Power BI templates](https://community.powerbi.com/t5/Data-Stories-Gallery/bd-p/DataStoriesGallery)
+![image](https://github.com/monicaclaros/Visualization_P/blob/main/images/Captura%20de%20pantalla%202023-05-16%20a%20la(s)%202.14.42.png)
+![image](https://github.com/monicaclaros/Visualization_P/blob/main/images/Captura%20de%20pantalla%202023-05-16%20a%20la(s)%202.15.01.png)
+![image](https://github.com/monicaclaros/Visualization_P/blob/main/images/Captura%20de%20pantalla%202023-05-16%20a%20la(s)%202.15.11.png)
+![image](https://github.com/monicaclaros/Visualization_P/blob/main/images/Captura%20de%20pantalla%202023-05-16%20a%20la(s)%202.15.30.png)
 
-:rocket:[Markdown format cheatsheet](https://www.markdownguide.org/cheat-sheet)
+<<<<<<< HEAD
+Visualización del proyecto de ETL sobre PIB América del Sur.
+
+
